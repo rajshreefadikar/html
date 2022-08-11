@@ -38,17 +38,19 @@ a{
 }
 #info{
     margin: 1%;
-    font-size: 25px;
-    color:beige;
+    font-size: 20px;
+    color:white;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
 }
 #contacts{
     margin: 1%;
-    font-size: 25px;
+    font-size: 20px;
     color:beige;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
 }
 #image{
     position: absolute;
@@ -69,6 +71,12 @@ a{
 .maps:hover{
     color: skyblue;
 }
+.github:hover{
+    color: skyblue;
+}
+.insta:hover{
+  color: skyblue;
+}
 .images{
 width: 30px;
 height: 30px;
@@ -76,27 +84,38 @@ height: 30px;
 }
 .center{
     align-items: center;
-text-align: center;}
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 #more{
     color:white;
     border: 1px solid white;
-    max-width:50%;
+    max-width:45%;
     padding: 0 auto;
+    
 }
-
 .interests{
     color:white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.interests ul li{
+    color:white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
       .scroller {
         height: 1.2em;
         line-height: 1.2em;
         position: relative;
         overflow: hidden;
-        width: 20em;
+        width: 15em;
         margin: auto;
         text-align: center;
         font-size: 30px;
+        margin-bottom: 5%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: pink;
       }
       .scroller > span {
         position: relative;
@@ -132,3 +151,28 @@ text-align: center;}
           top: 0em;
         }
       }
+      .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 50%;
+      }
+#tenth{
+  margin: 1%;
+    font-size: 20px;
+    color:pink;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+#twelveth{
+  margin: 1%;
+    font-size: 20px;
+    color:beige;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
